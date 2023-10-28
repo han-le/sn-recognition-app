@@ -1,5 +1,7 @@
 # sn-recognition-app
 Application that enables employees to submit nominations and distribute recognition points to their peers
+![alt text](images/recog-app-1.png "Title")
+
 
 ### Features
 A user can nominate their peers with a proper award corresponding with an amount of points
