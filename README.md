@@ -1,13 +1,15 @@
 # sn-recognition-app
-Application that enables employees to submit nominations and distribute recognition points to their peers
-![alt text](images/recog-app-1.png "Title")
+Application that enables employees to submit nominations and distribute recognition points to their peers.
 
+![alt text](images/recog-app-1.png)
 
 ### Features
 A user can nominate their peers with a proper award corresponding with an amount of points
 HR has the ability to set the limit of points each employee can receive a year
 Manager will receive the nomination and consider to approve or reject it
 Employees can track their points and others.
+
+![alt text](images/recog-app-2.png)
 
 **Create a nomination**
 - Auto populate the nominator as the current logged in user
@@ -24,6 +26,8 @@ Employees can track their points and others.
 	- Only show the button if the logged in user is the requestor
 	- Reload and stay at the same form after click
 	- Cancel the pending approval
+   
+![alt text](images/recog-app-3.png)
 
 **When the nomination is approved:**
 - Email sent
