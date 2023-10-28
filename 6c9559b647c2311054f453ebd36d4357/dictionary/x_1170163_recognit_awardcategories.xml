@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="7747edb24746311054f453ebd36d4347" label="AwardCategories" max_length="40" name="x_1170163_recognit_awardcategories" text_index="true" type="collection">
+        <element label="Name" max_length="60" name="name" type="string"/>
+        <element label="Point" max_length="40" name="point" type="integer"/>
+    </element>
+</database>

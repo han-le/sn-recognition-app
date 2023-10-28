@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_1170163_recognit_nominations">x_1170163_recognit_nominations</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>NOM</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-26 14:42:08</sys_created_on>
+        <sys_id>bdf365fe4706311054f453ebd36d436d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NOM</sys_name>
+        <sys_package display_value="Recognition app" source="x_1170163_recognit">6c9559b647c2311054f453ebd36d4357</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Recognition app">6c9559b647c2311054f453ebd36d4357</sys_scope>
+        <sys_update_name>sys_number_bdf365fe4706311054f453ebd36d436d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-26 14:42:08</sys_updated_on>
+    </sys_number>
+</record_update>

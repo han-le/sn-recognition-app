@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="Recognition app Config">77fc317a29863110b809b83bc372bb3c</app_config>
+        <description/>
+        <event_mappings>[ ]</event_mappings>
+        <macroponent display_value="Nominations Record Page">f50db17a4786311054f453ebd36d43df</macroponent>
+        <macroponent_config>{
+  "views" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "selectedTabIndex" : {
+    "type" : "JSON_LITERAL",
+    "value" : 0
+  },
+  "label" : {
+    "type" : "TRANSLATION_LITERAL",
+    "value" : {
+      "code" : null,
+      "message" : "",
+      "comment" : ""
+    }
+  },
+  "bare" : {
+    "type" : "JSON_LITERAL",
+    "value" : true
+  },
+  "scrollable" : {
+    "type" : "JSON_LITERAL",
+    "value" : "y"
+  },
+  "headerLevel" : {
+    "type" : "JSON_LITERAL",
+    "value" : "1"
+  },
+  "headingOnlyVisibleToScreenReaders" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "interceptNotifications" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "propagateNotifications" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  }
+}</macroponent_config>
+        <name>Nominations Record Page</name>
+        <order>100</order>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition>table=x_1170163_recognit_nominations</screen_condition>
+        <screen_type display_value="Record">e7fc317ae08631106ea0ecc460bfcb2f</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin_han</sys_created_by>
+        <sys_created_on>2023-10-26 16:31:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f90df17a4786311054f453ebd36d434c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Nominations Record Page</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Recognition app" source="x_1170163_recognit">6c9559b647c2311054f453ebd36d4357</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Recognition app">6c9559b647c2311054f453ebd36d4357</sys_scope>
+        <sys_update_name>sys_ux_screen_f90df17a4786311054f453ebd36d434c</sys_update_name>
+        <sys_updated_by>admin_han</sys_updated_by>
+        <sys_updated_on>2023-10-26 16:31:39</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=f90df17a4786311054f453ebd36d434c"/>
+</record_update>

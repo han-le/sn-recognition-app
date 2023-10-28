@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>true</applies_extended>
+        <condition/>
+        <description/>
+        <field>nominee</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>When nominee changes</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '' || !g_form.isNewRecord()) {
+        return;
+    }
+
+    // Clear value of award
+    if (g_form.getValue('award')) {
+        g_form.clearValue('award');
+    }
+
+	g_form.clearValue('points_earned_this_year');
+	g_form.clearValue('annual_points_limit');
+
+    var nominee_ID = g_form.getValue('nominee');
+
+    // Nominee and Nominator cannot be the same
+    if (g_form.getValue('nominator') == nominee_ID) {
+        g_form.clearValue('nominee');
+        g_form.addErrorMessage('You cannot nominate yourself.');
+        return;
+    }
+
+
+    // Fetch the points of this nominee
+    var glideAjax = new GlideAjax('GetUserAnnualPoint');
+    glideAjax.addParam('sysparm_name', 'getPointData'); // call the fucntion
+    glideAjax.addParam('sysparm_nominee_ID', nominee_ID); // pass the param to the function
+    glideAjax.getXML(function(response) {
+        var answerJSON = response.responseXML.documentElement.getAttribute("answer");
+        var answerObj = JSON.parse(answerJSON); //Transform the JSON string to an object
+        var points_earned_this_year = answerObj.points_earned_this_year;
+        var annual_points_limit = answerObj.annual_points_limit;
+
+		g_form.clearMessages();
+
+        // Cannot nominate someone that exceeds the quota
+        if (points_earned_this_year >= annual_points_limit) {			
+			g_form.addErrorMessage('SORRY! This person points have reached the annual limit. Please choose someone else.');
+			g_form.clearValue('nominee');
+            return;
+        }
+
+        // Populate data of points
+        g_form.setValue('points_earned_this_year', points_earned_this_year);
+        g_form.setValue('annual_points_limit', annual_points_limit);
+        g_form.addInfoMessage('NOTE: This person cannot get more than ' + (annual_points_limit - points_earned_this_year) + ' points this year');
+    });
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin_han</sys_created_by>
+        <sys_created_on>2023-10-27 03:49:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c6c750434702711054f453ebd36d4311</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name>When nominee changes</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Recognition app" source="x_1170163_recognit">6c9559b647c2311054f453ebd36d4357</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Recognition app">6c9559b647c2311054f453ebd36d4357</sys_scope>
+        <sys_update_name>sys_script_client_c6c750434702711054f453ebd36d4311</sys_update_name>
+        <sys_updated_by>admin_han</sys_updated_by>
+        <sys_updated_on>2023-10-28 00:35:54</sys_updated_on>
+        <table>x_1170163_recognit_nominations</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

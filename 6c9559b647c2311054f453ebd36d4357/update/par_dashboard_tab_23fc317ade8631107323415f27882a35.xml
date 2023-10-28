@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_tab">
+    <par_dashboard_tab action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <dashboard display_value="Recognition App Workspace">6bfc317a578631100a6aaa5d79d04835</dashboard>
+        <name>Tab</name>
+        <order>0</order>
+        <sys_class_name>par_dashboard_tab</sys_class_name>
+        <sys_created_by>admin_han</sys_created_by>
+        <sys_created_on>2023-10-26 16:31:32</sys_created_on>
+        <sys_id>23fc317ade8631107323415f27882a35</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tab</sys_name>
+        <sys_package display_value="Recognition app" source="x_1170163_recognit">6c9559b647c2311054f453ebd36d4357</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Recognition app">6c9559b647c2311054f453ebd36d4357</sys_scope>
+        <sys_update_name>par_dashboard_tab_23fc317ade8631107323415f27882a35</sys_update_name>
+        <sys_updated_by>admin_han</sys_updated_by>
+        <sys_updated_on>2023-10-26 16:31:32</sys_updated_on>
+    </par_dashboard_tab>
+</record_update>

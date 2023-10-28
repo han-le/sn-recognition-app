@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">a7fc317add863110df0dc25cbd41b235</canvas>
+        <component display_value="now-image">6083add31d71827a26ceadfcc4e31550</component>
+        <component_props>{"src":"/x_1170163_recognit.trophy-1.jpg","fit":"cover","position":"bottom left","height":200,"alt":""}</component_props>
+        <h>10</h>
+        <name/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin_han</sys_created_by>
+        <sys_created_on>2023-10-27 22:26:44</sys_created_on>
+        <sys_id>05e758974746311054f453ebd36d4347</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Recognition app" source="x_1170163_recognit">6c9559b647c2311054f453ebd36d4357</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Recognition app">6c9559b647c2311054f453ebd36d4357</sys_scope>
+        <sys_update_name>par_dashboard_widget_05e758974746311054f453ebd36d4347</sys_update_name>
+        <sys_updated_by>admin_han</sys_updated_by>
+        <sys_updated_on>2023-10-28 15:04:31</sys_updated_on>
+        <visualization/>
+        <w>48</w>
+        <x>0</x>
+        <y>0</y>
+    </par_dashboard_widget>
+</record_update>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Recognition app">0bbf9dba4706311054f453ebd36d4389</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>NEW</link_type>
+        <map_page/>
+        <mobile_title>Create New</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1170163_recognit_awards</name>
+        <order>2</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-26 14:23:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>07bf9dba4706311054f453ebd36d4390</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create New</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Recognition app" source="x_1170163_recognit">6c9559b647c2311054f453ebd36d4357</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Recognition app">6c9559b647c2311054f453ebd36d4357</sys_scope>
+        <sys_update_name>sys_app_module_07bf9dba4706311054f453ebd36d4390</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-26 14:23:40</sys_updated_on>
+        <timeline_page/>
+        <title>Create New</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Recognition app">6c9559b647c2311054f453ebd36d4357</application>
+        <file_path/>
+        <instance_id>c704476edbb89490a667cac5059619ff</instance_id>
+        <instance_name>dev104145</instance_name>
+        <name>sys_app_module_07bf9dba4706311054f453ebd36d4390</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Recognition app">0bbf9dba4706311054f453ebd36d4389</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>NEW</link_type><map_page/><mobile_title>Create New</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_1170163_recognit_awards</name><order>2</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-10-26 14:23:40</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>07bf9dba4706311054f453ebd36d4390</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Create New</sys_name><sys_overrides/><sys_package display_value="Recognition app" source="x_1170163_recognit">6c9559b647c2311054f453ebd36d4357</sys_package><sys_policy/><sys_scope display_value="Recognition app">6c9559b647c2311054f453ebd36d4357</sys_scope><sys_update_name>sys_app_module_07bf9dba4706311054f453ebd36d4390</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-10-26 14:23:40</sys_updated_on><timeline_page/><title>Create New</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>1495303765</payload_hash>
+        <record_name>Create New</record_name>
+        <reverted_from/>
+        <source>a89595724706311054f453ebd36d43fd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-26 14:23:40</sys_created_on>
+        <sys_id>4fbf91fa4706311054f453ebd36d4336</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b6c5e98bd0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-26 14:23:40</sys_updated_on>
+        <type>Module</type>
+        <update_guid>83bf91fab6063110936d5526bda9f136</update_guid>
+        <update_guid_history>83bf91fab6063110936d5526bda9f136:1495303765</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Create New">e8b939764786311054f453ebd36d43a1</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-26 16:17:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>1a7ff6bc972c413492bddab9b71b4110</sys_id>
+        <sys_metadata>07bf9dba4706311054f453ebd36d4390</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create New</sys_name>
+        <sys_package display_value="Recognition app" source="x_1170163_recognit">6c9559b647c2311054f453ebd36d4357</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Recognition app">6c9559b647c2311054f453ebd36d4357</sys_scope>
+        <sys_scope_delete display_value="">688a76662b384641b86be756b421d701</sys_scope_delete>
+        <sys_update_name>sys_app_module_07bf9dba4706311054f453ebd36d4390</sys_update_name>
+        <sys_update_version display_value="sys_app_module_07bf9dba4706311054f453ebd36d4390">4fbf91fa4706311054f453ebd36d4336</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-26 16:17:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

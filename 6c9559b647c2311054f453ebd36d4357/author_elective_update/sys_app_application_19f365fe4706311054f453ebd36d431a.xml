@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Nominations</name>
+        <order>100</order>
+        <roles>x_1170163_recognit.nominations_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-26 14:42:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>19f365fe4706311054f453ebd36d431a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Nominations</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Recognition app" source="x_1170163_recognit">6c9559b647c2311054f453ebd36d4357</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Recognition app">6c9559b647c2311054f453ebd36d4357</sys_scope>
+        <sys_update_name>sys_app_application_19f365fe4706311054f453ebd36d431a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-26 14:42:07</sys_updated_on>
+        <title>Nominations</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Recognition app">6c9559b647c2311054f453ebd36d4357</application>
+        <file_path/>
+        <instance_id>c704476edbb89490a667cac5059619ff</instance_id>
+        <instance_name>dev104145</instance_name>
+        <name>sys_app_application_19f365fe4706311054f453ebd36d431a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>Nominations</name><order>100</order><roles>x_1170163_recognit.nominations_user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-10-26 14:42:07</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>19f365fe4706311054f453ebd36d431a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Nominations</sys_name><sys_overrides/><sys_package display_value="Recognition app" source="x_1170163_recognit">6c9559b647c2311054f453ebd36d4357</sys_package><sys_policy/><sys_scope display_value="Recognition app">6c9559b647c2311054f453ebd36d4357</sys_scope><sys_update_name>sys_app_application_19f365fe4706311054f453ebd36d431a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-10-26 14:42:07</sys_updated_on><title>Nominations</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>1546235939</payload_hash>
+        <record_name>Nominations</record_name>
+        <reverted_from/>
+        <source>a89595724706311054f453ebd36d43fd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-26 14:42:07</sys_created_on>
+        <sys_id>5df365fe4706311054f453ebd36d431c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b6c6f7c260000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-26 14:42:07</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>91f365fe91063110287d65872635761c</update_guid>
+        <update_guid_history>91f365fe91063110287d65872635761c:1546235939</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Nominations">648106be4786311054f453ebd36d43b2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-26 16:51:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>3b42947e74414ecd8ef14651c750a381</sys_id>
+        <sys_metadata>19f365fe4706311054f453ebd36d431a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Nominations</sys_name>
+        <sys_package display_value="Recognition app" source="x_1170163_recognit">6c9559b647c2311054f453ebd36d4357</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Recognition app">6c9559b647c2311054f453ebd36d4357</sys_scope>
+        <sys_scope_delete display_value="">688a76662b384641b86be756b421d701</sys_scope_delete>
+        <sys_update_name>sys_app_application_19f365fe4706311054f453ebd36d431a</sys_update_name>
+        <sys_update_version display_value="sys_app_application_19f365fe4706311054f453ebd36d431a">5df365fe4706311054f453ebd36d431c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-26 16:51:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

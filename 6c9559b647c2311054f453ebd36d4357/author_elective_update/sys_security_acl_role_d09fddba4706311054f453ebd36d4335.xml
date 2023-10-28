@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-26 14:22:56</sys_created_on>
+        <sys_id>d09fddba4706311054f453ebd36d4335</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1170163_recognit_awards.x_1170163_recognit.recognition_hr</sys_name>
+        <sys_package display_value="Recognition app" source="x_1170163_recognit">6c9559b647c2311054f453ebd36d4357</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Recognition app">6c9559b647c2311054f453ebd36d4357</sys_scope>
+        <sys_security_acl display_value="x_1170163_recognit_awards">549fddba4706311054f453ebd36d4326</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_d09fddba4706311054f453ebd36d4335</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-26 14:22:56</sys_updated_on>
+        <sys_user_role display_value="x_1170163_recognit.recognition_hr" name="x_1170163_recognit.recognition_hr">29ec113a4706311054f453ebd36d431a</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Recognition app">6c9559b647c2311054f453ebd36d4357</application>
+        <file_path/>
+        <instance_id>c704476edbb89490a667cac5059619ff</instance_id>
+        <instance_name>dev104145</instance_name>
+        <name>sys_security_acl_role_d09fddba4706311054f453ebd36d4335</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-10-26 14:22:56</sys_created_on><sys_id>d09fddba4706311054f453ebd36d4335</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1170163_recognit_awards.x_1170163_recognit.recognition_hr</sys_name><sys_package display_value="Recognition app" source="x_1170163_recognit">6c9559b647c2311054f453ebd36d4357</sys_package><sys_policy/><sys_scope display_value="Recognition app">6c9559b647c2311054f453ebd36d4357</sys_scope><sys_security_acl display_value="x_1170163_recognit_awards">549fddba4706311054f453ebd36d4326</sys_security_acl><sys_update_name>sys_security_acl_role_d09fddba4706311054f453ebd36d4335</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-10-26 14:22:56</sys_updated_on><sys_user_role display_value="x_1170163_recognit.recognition_hr" name="x_1170163_recognit.recognition_hr">29ec113a4706311054f453ebd36d431a</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>1961567868</payload_hash>
+        <record_name>x_1170163_recognit_awards.x_1170163_recognit.recognition_hr</record_name>
+        <reverted_from/>
+        <source>a89595724706311054f453ebd36d43fd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-26 14:22:56</sys_created_on>
+        <sys_id>189fddba4706311054f453ebd36d4337</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b6c5dec360000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-26 14:22:56</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>5c9fddba15063110970b7c80d1410636</update_guid>
+        <update_guid_history>5c9fddba15063110970b7c80d1410636:1961567868</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1170163_recognit_awards.x_1170163_recognit.recognition_hr">04b939764786311054f453ebd36d4333</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-26 16:17:03</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>9d9ce0783d1e484fb7d7e86f8335d7b9</sys_id>
+        <sys_metadata>d09fddba4706311054f453ebd36d4335</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1170163_recognit_awards.x_1170163_recognit.recognition_hr</sys_name>
+        <sys_package display_value="Recognition app" source="x_1170163_recognit">6c9559b647c2311054f453ebd36d4357</sys_package>
+        <sys_parent display_value="">549fddba4706311054f453ebd36d4326</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Recognition app">6c9559b647c2311054f453ebd36d4357</sys_scope>
+        <sys_scope_delete display_value="">688a76662b384641b86be756b421d701</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_d09fddba4706311054f453ebd36d4335</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_d09fddba4706311054f453ebd36d4335">189fddba4706311054f453ebd36d4337</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-26 16:17:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c660c27e4786311054f453ebd36d43f2" label="Points" max_length="40" name="x_1170163_recognit_points" type="collection">
+        <element default="200" label="Annual Points Limit" max_length="255" name="annual_points_limit" type="integer"/>
+        <element label="Employee" max_length="32" name="employee" reference="sys_user" type="reference"/>
+        <element label="Points" max_length="40" name="points" type="integer"/>
+        <element display="true" label="Points Earned This Year" max_length="40" name="points_earned_this_year" type="integer"/>
+        <element label="Total Points Earned" max_length="40" name="total_points_earned" type="integer"/>
+        <element label="Total Points Spent" max_length="40" name="total_points_spent" type="integer"/>
+        <index name="index">
+            <element name="employee"/>
+        </index>
+    </element>
+</database>
