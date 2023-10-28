@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_data_policy2">
+    <sys_data_policy2 action="DELETE">
+        <active>true</active>
+        <apply_import_set>true</apply_import_set>
+        <apply_soap>true</apply_soap>
+        <conditions/>
+        <description/>
+        <enforce_ui>true</enforce_ui>
+        <inherit>false</inherit>
+        <model_id/>
+        <model_table>x_1170163_recognit_nominations</model_table>
+        <reverse_if_false>true</reverse_if_false>
+        <short_description>Status is read only</short_description>
+        <sys_class_name>sys_data_policy2</sys_class_name>
+        <sys_created_by>admin_han</sys_created_by>
+        <sys_created_on>2023-10-26 23:47:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d6c067ba470e311054f453ebd36d4303</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Status is read only</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Recognition app" source="x_1170163_recognit">6c9559b647c2311054f453ebd36d4357</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Recognition app">6c9559b647c2311054f453ebd36d4357</sys_scope>
+        <sys_update_name>sys_data_policy2_d6c067ba470e311054f453ebd36d4303</sys_update_name>
+        <sys_updated_by>admin_han</sys_updated_by>
+        <sys_updated_on>2023-10-26 23:47:45</sys_updated_on>
+    </sys_data_policy2>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Recognition app">6c9559b647c2311054f453ebd36d4357</application>
+        <file_path/>
+        <instance_id>c704476edbb89490a667cac5059619ff</instance_id>
+        <instance_name>dev104145</instance_name>
+        <name>sys_data_policy2_d6c067ba470e311054f453ebd36d4303</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_data_policy2"><sys_data_policy2 action="INSERT_OR_UPDATE"><active>true</active><apply_import_set>true</apply_import_set><apply_soap>true</apply_soap><conditions/><description/><enforce_ui>true</enforce_ui><inherit>false</inherit><model_id/><model_table>x_1170163_recognit_nominations</model_table><reverse_if_false>true</reverse_if_false><short_description>Status is read only</short_description><sys_class_name>sys_data_policy2</sys_class_name><sys_created_by>admin_han</sys_created_by><sys_created_on>2023-10-26 23:47:45</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d6c067ba470e311054f453ebd36d4303</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Status is read only</sys_name><sys_overrides/><sys_package display_value="Recognition app" source="x_1170163_recognit">6c9559b647c2311054f453ebd36d4357</sys_package><sys_policy/><sys_scope display_value="Recognition app">6c9559b647c2311054f453ebd36d4357</sys_scope><sys_update_name>sys_data_policy2_d6c067ba470e311054f453ebd36d4303</sys_update_name><sys_updated_by>admin_han</sys_updated_by><sys_updated_on>2023-10-26 23:47:45</sys_updated_on></sys_data_policy2></record_update>]]></payload>
+        <payload_hash>-1573341808</payload_hash>
+        <record_name>Status is read only</record_name>
+        <reverted_from/>
+        <source>a89595724706311054f453ebd36d43fd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin_han</sys_created_by>
+        <sys_created_on>2023-10-26 23:47:45</sys_created_on>
+        <sys_id>4ed0e3ba470e311054f453ebd36d4361</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b6e6306d80000001</sys_recorded_at>
+        <sys_updated_by>admin_han</sys_updated_by>
+        <sys_updated_on>2023-10-26 23:47:45</sys_updated_on>
+        <type>Data Policy</type>
+        <update_guid>42d0e3baf00e31102390ff3743c6b561</update_guid>
+        <update_guid_history>42d0e3baf00e31102390ff3743c6b561:-1573341808</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin_han</sys_created_by>
+        <sys_created_on>2023-10-27 01:36:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_data_policy2">sys_data_policy2</sys_db_object>
+        <sys_id>9ca2b4da01e348cabb0e6a919eb91f04</sys_id>
+        <sys_metadata>d6c067ba470e311054f453ebd36d4303</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Status is read only</sys_name>
+        <sys_package display_value="Recognition app" source="x_1170163_recognit">6c9559b647c2311054f453ebd36d4357</sys_package>
+        <sys_parent display_value="Nominations">9dff95fa4706311054f453ebd36d4308</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Recognition app">6c9559b647c2311054f453ebd36d4357</sys_scope>
+        <sys_scope_delete display_value="">688a76662b384641b86be756b421d701</sys_scope_delete>
+        <sys_update_name>sys_data_policy2_d6c067ba470e311054f453ebd36d4303</sys_update_name>
+        <sys_update_version display_value="sys_data_policy2_d6c067ba470e311054f453ebd36d4303">4ed0e3ba470e311054f453ebd36d4361</sys_update_version>
+        <sys_updated_by>admin_han</sys_updated_by>
+        <sys_updated_on>2023-10-27 01:36:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

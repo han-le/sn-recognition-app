@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1170163_recognit.GetUserAnnualPoint</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>For GlideAjax</description>
+        <name>GetUserAnnualPoint</name>
+        <script><![CDATA[var GetUserAnnualPoint = Class.create();
+GetUserAnnualPoint.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    getPointData: function() {
+
+        var nominee_ID = this.getParameter('sysparm_nominee_ID');
+        // var nominee_ID = 'e2826bf03710200044e0bfc8bcbe5dd7';
+
+		var pointObj = {};
+		pointObj.annual_points_limit = gs.getProperty('x_1170163_recognit.annual.point.limit');
+		pointObj.points_earned_this_year = 0; 
+
+        var pointGr = new GlideRecord('x_1170163_recognit_points');
+        pointGr.addQuery('employee', nominee_ID);
+        pointGr.query();
+        if (pointGr.next()) {
+            // Get the point
+            pointObj.points_earned_this_year = parseInt(pointGr.points_earned_this_year);
+            pointObj.annual_points_limit = parseInt(pointGr.annual_points_limit);
+        }
+
+        gs.info('points_earned_this_year = ' + pointObj.points_earned_this_year);
+        gs.info('annual_points_limit = ' + pointObj.annual_points_limit);
+
+        // Convert Javascript object to JSON to send through web service
+        return JSON.stringify(pointObj);
+    },
+
+    type: 'GetUserAnnualPoint'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin_han</sys_created_by>
+        <sys_created_on>2023-10-27 04:04:53</sys_created_on>
+        <sys_id>c04b94074702711054f453ebd36d43b8</sys_id>
+        <sys_mod_count>27</sys_mod_count>
+        <sys_name>GetUserAnnualPoint</sys_name>
+        <sys_package display_value="Recognition app" source="x_1170163_recognit">6c9559b647c2311054f453ebd36d4357</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Recognition app">6c9559b647c2311054f453ebd36d4357</sys_scope>
+        <sys_update_name>sys_script_include_c04b94074702711054f453ebd36d43b8</sys_update_name>
+        <sys_updated_by>admin_han</sys_updated_by>
+        <sys_updated_on>2023-10-27 05:29:47</sys_updated_on>
+    </sys_script_include>
+</record_update>

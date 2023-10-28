@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c74506b247c6311054f453ebd36d43a7" label="Transaction" max_length="40" name="x_1170163_recognit_transaction" type="collection">
+        <element label="Description" max_length="100" name="description" type="string"/>
+        <element label="Employee" max_length="32" name="employee" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Points Change" max_length="40" name="points_change" type="integer"/>
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Earned" sequence="0" value="earned"/>
+                <element inactive_on_update="false" label="Spent" sequence="1" value="spent"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="employee"/>
+        </index>
+    </element>
+</database>

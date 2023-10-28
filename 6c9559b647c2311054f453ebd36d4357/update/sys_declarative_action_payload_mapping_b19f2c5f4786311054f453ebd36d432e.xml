@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_declarative_action_payload_mapping">
+    <sys_declarative_action_payload_mapping action="INSERT_OR_UPDATE">
+        <action_payload_definition display_value="my_button">0e4f609f4786311054f453ebd36d43c2</action_payload_definition>
+        <label>null Form</label>
+        <model display_value="Form">360935e9534723003eddddeeff7b127d</model>
+        <payload_map>EQ</payload_map>
+        <sys_class_name>sys_declarative_action_payload_mapping</sys_class_name>
+        <sys_created_by>admin_han</sys_created_by>
+        <sys_created_on>2023-10-28 00:10:17</sys_created_on>
+        <sys_id>b19f2c5f4786311054f453ebd36d432e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>null Form</sys_name>
+        <sys_package display_value="Recognition app" source="x_1170163_recognit">6c9559b647c2311054f453ebd36d4357</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Recognition app">6c9559b647c2311054f453ebd36d4357</sys_scope>
+        <sys_update_name>sys_declarative_action_payload_mapping_b19f2c5f4786311054f453ebd36d432e</sys_update_name>
+        <sys_updated_by>admin_han</sys_updated_by>
+        <sys_updated_on>2023-10-28 00:10:17</sys_updated_on>
+    </sys_declarative_action_payload_mapping>
+</record_update>

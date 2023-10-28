@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">a7fc317add863110df0dc25cbd41b235</canvas>
+        <component display_value="">2b1c080881e05dc63b917044290b233f</component>
+        <component_props>{"table":"x_1170163_recognit_points","fixedQuery":"","listTitle":"Leader board","columns":"employee,points_earned_this_year","query":"display=true^benchmarking=false","groupByField":"","limit":10,"hideViewAll":true,"hideHighlightedValues":false,"highlightedValueConfigId":"","hideHighlightContent":false,"highlightContent":{"patterns":[],"color":""},"hideLinks":true,"wordWrap":true,"overrideWordWrapUserPref":false,"maxCharLimit":4000,"hideEmptyStateImage":false,"hidePersonalization":true,"hideDotwalk":true,"hideColumnReorder":true,"hideRowSelector":false,"hideColumnGrouping":true,"hideColumnResizing":true,"hideColumnFiltering":true,"hideColumnSorting":true,"hideHeader":false,"hideTitle":false,"hideTitleRowCount":true,"hideLastRefreshedText":false,"hideRefreshButton":false,"hideInlineEditing":false,"refreshRequested":""}</component_props>
+        <h>21</h>
+        <name/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin_han</sys_created_by>
+        <sys_created_on>2023-10-28 14:57:18</sys_created_on>
+        <sys_id>d39abf1f4782711054f453ebd36d436c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Recognition app" source="x_1170163_recognit">6c9559b647c2311054f453ebd36d4357</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Recognition app">6c9559b647c2311054f453ebd36d4357</sys_scope>
+        <sys_update_name>par_dashboard_widget_d39abf1f4782711054f453ebd36d436c</sys_update_name>
+        <sys_updated_by>admin_han</sys_updated_by>
+        <sys_updated_on>2023-10-28 15:15:53</sys_updated_on>
+        <visualization/>
+        <w>14</w>
+        <x>34</x>
+        <y>10</y>
+    </par_dashboard_widget>
+</record_update>

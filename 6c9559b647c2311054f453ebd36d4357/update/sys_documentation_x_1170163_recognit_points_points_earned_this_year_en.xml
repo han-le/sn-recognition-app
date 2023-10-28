@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="points_earned_this_year" label="Points Earned This Year" language="en" table="x_1170163_recognit_points">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>points_earned_this_year</element>
+            <help/>
+            <hint/>
+            <label>Points Earned This Year</label>
+            <language>en</language>
+            <name>x_1170163_recognit_points</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin_han</sys_created_by>
+            <sys_created_on>2023-10-26 16:49:34</sys_created_on>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_name>Points Earned This Year</sys_name>
+            <sys_package display_value="Recognition app" source="x_1170163_recognit">6c9559b647c2311054f453ebd36d4357</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Recognition app">6c9559b647c2311054f453ebd36d4357</sys_scope>
+            <sys_update_name>sys_documentation_x_1170163_recognit_points_points_earned_this_year_en</sys_update_name>
+            <sys_updated_by>admin_lady</sys_updated_by>
+            <sys_updated_on>2023-10-28 15:31:48</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

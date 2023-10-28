@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9dff95fa4706311054f453ebd36d4308" label="Nominations" max_length="40" name="x_1170163_recognit_nominations" text_index="true" type="collection">
+        <element label="Annual Points Limit" max_length="40" name="annual_points_limit" type="integer"/>
+        <element label="Award" max_length="32" name="award" reference="x_1170163_recognit_awardcategories" type="reference"/>
+        <element default="javascript:gs.now()" dynamic_default_value="fb7553e85f220100a9ad2572f2b477b4" label="Date" max_length="40" name="date" read_only="true" type="glide_date" use_dynamic_default="true"/>
+        <element label="Description" max_length="400" name="description" type="string"/>
+        <element label="Nominator" max_length="32" name="nominator" reference="sys_user" type="reference"/>
+        <element label="Nominee" max_length="32" name="nominee" reference="sys_user" reference_qual="javascript:'sys_idIN' + new RecognitionUsers().getmembers()" type="reference" use_reference_qualifier="advanced"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Points Earned This Year" max_length="40" name="points_earned_this_year" type="integer"/>
+        <element choice="3" default="new" label="Status" max_length="40" name="status" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Requested" sequence="0" value="requested"/>
+                <element inactive_on_update="false" label="Waiting for approval" sequence="1" value="waiting_for_approval"/>
+                <element inactive_on_update="false" label="Approved" sequence="2" value="approved"/>
+                <element inactive_on_update="false" label="Rejected" sequence="3" value="rejected"/>
+                <element inactive_on_update="false" label="Withdrawn" sequence="4" value="withdrawn"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="5" value="cancelled"/>
+                <element inactive_on_update="false" label="Completed" sequence="6" value="completed"/>
+                <element inactive_on_update="false" label="New" sequence="7" value="new"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="award"/>
+        </index>
+        <index name="index2">
+            <element name="nominator"/>
+        </index>
+        <index name="index3">
+            <element name="nominee"/>
+        </index>
+    </element>
+</database>

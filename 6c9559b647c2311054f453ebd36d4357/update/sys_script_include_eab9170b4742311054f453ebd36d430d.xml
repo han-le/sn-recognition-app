@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1170163_recognit.RecognitionUsers</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Return a list of users in the Recognition Users</description>
+        <name>RecognitionUsers</name>
+        <script><![CDATA[var RecognitionUsers = Class.create();
+RecognitionUsers.prototype = {
+    initialize: function() {},
+
+    getmembers: function() {
+        var groupGr = new GlideRecord('sys_user_grmember');
+        groupGr.addQuery('group', gs.getProperty('x_1170163_recognit.recognition.user.group'));
+        groupGr.query();
+        var memList = [];
+        while (groupGr.next()) {
+            memList.push(groupGr.user + "");
+        }
+        return memList;
+    },
+
+    type: 'RecognitionUsers'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin_han</sys_created_by>
+        <sys_created_on>2023-10-27 17:55:41</sys_created_on>
+        <sys_id>eab9170b4742311054f453ebd36d430d</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>RecognitionUsers</sys_name>
+        <sys_package display_value="Recognition app" source="x_1170163_recognit">6c9559b647c2311054f453ebd36d4357</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Recognition app">6c9559b647c2311054f453ebd36d4357</sys_scope>
+        <sys_update_name>sys_script_include_eab9170b4742311054f453ebd36d430d</sys_update_name>
+        <sys_updated_by>admin_han</sys_updated_by>
+        <sys_updated_on>2023-10-27 18:09:03</sys_updated_on>
+    </sys_script_include>
+</record_update>
